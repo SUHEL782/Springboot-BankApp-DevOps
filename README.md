@@ -1,10 +1,10 @@
-#  End-to-End Bank Application Deployment using DevOps on AWS EKS
+# 🚀 End-to-End Bank Application Deployment using DevOps on AWS EKS
 
 This project demonstrates a **complete DevOps pipeline** for deploying a multi-tier banking application built using **Spring Boot** on **AWS EKS**.
 
 ---
 
-##  Application Preview
+## 🖼️ Application Preview
 
 ![Login](images/login.png)  
 ![Transactions](images/transactions.png)
@@ -25,7 +25,7 @@ This project demonstrates a **complete DevOps pipeline** for deploying a multi-t
 
 ---
 
-##  Deployment Steps
+## ⚙️ Deployment Steps
 
 ### 🔹 Pre-requisites
 
@@ -76,7 +76,7 @@ eksctl create nodegroup --cluster=bankapp \
   --node-volume-size=29 \
   --ssh-access \
   --ssh-public-key=eks-nodegroup-key
- Tools Installation
+🔧 Tools Installation
 Jenkins
 sudo apt update -y
 sudo apt install openjdk-17-jre -y
@@ -102,7 +102,7 @@ kubectl get pods -n argocd
 Expose ArgoCD:
 
 kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "NodePort"}}'
- CI/CD Pipeline
+🔁 CI/CD Pipeline
 Jenkins Pipeline Includes:
 
 Code checkout
@@ -119,7 +119,7 @@ Trivy scan
 
 Deploy via ArgoCD
 
- Monitoring Setup
+📊 Monitoring Setup
 Install Prometheus & Grafana
 kubectl create namespace prometheus
 helm install stable prometheus-community/kube-prometheus-stack -n prometheus
@@ -129,11 +129,11 @@ kubectl edit svc stable-kube-prometheus-sta-prometheus -n prometheus
 Get Grafana Password
 kubectl get secret -n prometheus stable-grafana \
 -o jsonpath="{.data.admin-password}" | base64 --decode
- Access Application
+🌐 Access Application
 http://<worker-node-ip>:30080
- Clean Up
+🧹 Clean Up
 eksctl delete cluster --name=bankapp --region=us-west-1
- Conclusion
+🎯 Conclusion
 
 This project showcases a complete DevOps lifecycle:
 
@@ -149,11 +149,5 @@ Kubernetes-based scalable architecture
 
 Production-ready setup
 
- Author
-
-Suhel Khan
- Uttar Pradesh (Lucknow)
- workwithsuhel@gmail.com
-
- +91 8931004042
-
+👨‍💻 Author
+<p align="center"> <a href="https://leetcode.com/u/iF2qKmHzCO/"> <img src="https://img.shields.io/badge/DSA%20%26%20SQL-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/> </a> <a href="https://my-portfolio-app-theta-one.vercel.app/"> <img src="https://img.shields.io/badge/Portfolio-0ea5e9?style=for-the-badge&logo=netlify&logoColor=white"/> </a> <a href="https://www.linkedin.com/in/devops-engineer1/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> <a href="mailto:workwithsuhel@gmail.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/> </a> </p> ```
