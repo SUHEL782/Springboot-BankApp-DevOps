@@ -161,12 +161,6 @@ Suhel Khan
 
 ---
 
-## ✅ Done
-
-- ✔️ Author moved to bottom  
-- ✔️ No content removed  
-- ✔️ Clean & structured  
-- ✔️ Ready for GitHub + submission  
 
 ---
 
