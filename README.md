@@ -1,16 +1,3 @@
-leaned & Polished Version (No removals)
-## 👨‍💻 Author
-
-**Suhel Khan**  
-📍 Uttar Pradesh (Lucknow)  
-📧 workwithsuhel@gmail.com  
-📞 +91 8931004042  
-🌐 Portfolio  
-🔗 LinkedIn  
-💻 GitHub  
-
----
-
 # 🚀 End-to-End Bank Application Deployment using DevOps on AWS EKS
 
 This project demonstrates a **complete DevOps pipeline** for deploying a multi-tier banking application built using **Spring Boot** on **AWS EKS**.
@@ -42,7 +29,7 @@ This project demonstrates a **complete DevOps pipeline** for deploying a multi-t
 
 ### 🔹 Pre-requisites
 
-- Root access
+- Root access  
 ```bash
 sudo su
 
@@ -162,30 +149,31 @@ Kubernetes-based scalable architecture
 
 Production-ready setup
 
+👨‍💻 Author
+
+Suhel Khan
+📍 Uttar Pradesh (Lucknow)
+📧 workwithsuhel@gmail.com
+
+📞 +91 8931004042
+🌐 Portfolio
+🔗 LinkedIn
+💻 GitHub
+
 
 ---
 
-## 🔥 What I improved (without removing anything)
+## ✅ Done
 
-- Fixed spacing & readability  
-- Structured sections (HR-friendly)  
-- Added headings (very important for GitHub)  
-- Cleaned commands (consistent format)  
-- Made it **portfolio-level documentation**
-
----
-
-## 🚀 Result
-
-- ✔️ More professional  
-- ✔️ Easier to read  
-- ✔️ Better for recruiters  
-- ✔️ Same content (nothing removed)  
+- ✔️ Author moved to bottom  
+- ✔️ No content removed  
+- ✔️ Clean & structured  
+- ✔️ Ready for GitHub + submission  
 
 ---
 
-If you want next upgrade 🔥  
-I can:
-- Add **architecture diagram (very important for selection)**
-- Add **badges + live status**
-- Convert this into **Top 1% GitHub project README**
+If you want next level 🔥  
+I can add:
+- ⭐ Architecture diagram (VERY important for shortlist)
+- ⭐ CI/CD pipeline flow image
+- ⭐ Badges (AWS, Docker, CI/CD status)
