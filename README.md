@@ -1,17 +1,17 @@
-# 🚀 End-to-End Bank Application Deployment using DevOps on AWS EKS
+#  End-to-End Bank Application Deployment using DevOps on AWS EKS
 
 This project demonstrates a **complete DevOps pipeline** for deploying a multi-tier banking application built using **Spring Boot** on **AWS EKS**.
 
 ---
 
-## 🖼️ Application Preview
+##  Application Preview
 
 ![Login](images/login.png)  
 ![Transactions](images/transactions.png)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Version Control:** GitHub  
 - **Containerization:** Docker  
@@ -25,7 +25,7 @@ This project demonstrates a **complete DevOps pipeline** for deploying a multi-t
 
 ---
 
-## ⚙️ Deployment Steps
+##  Deployment Steps
 
 ### 🔹 Pre-requisites
 
