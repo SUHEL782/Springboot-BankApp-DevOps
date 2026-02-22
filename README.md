@@ -156,16 +156,4 @@ Suhel Khan
  workwithsuhel@gmail.com
 
  +91 8931004042
- 
 
-
----
-
-
----
-
-If you want next level 🔥  
-I can add:
-- ⭐ Architecture diagram (VERY important for shortlist)
-- ⭐ CI/CD pipeline flow image
-- ⭐ Badges (AWS, Docker, CI/CD status)
