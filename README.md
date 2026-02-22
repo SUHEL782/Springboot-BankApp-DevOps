@@ -149,5 +149,3 @@ Kubernetes-based scalable architecture
 
 Production-ready setup
 
-👨‍💻 Author
-<p align="center"> <a href="https://leetcode.com/u/iF2qKmHzCO/"> <img src="https://img.shields.io/badge/DSA%20%26%20SQL-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/> </a> <a href="https://my-portfolio-app-theta-one.vercel.app/"> <img src="https://img.shields.io/badge/Portfolio-0ea5e9?style=for-the-badge&logo=netlify&logoColor=white"/> </a> <a href="https://www.linkedin.com/in/devops-engineer1/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> <a href="mailto:workwithsuhel@gmail.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/> </a> </p> ```
