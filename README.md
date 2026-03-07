@@ -6,8 +6,7 @@ This project demonstrates a **complete DevOps pipeline** for deploying a multi-t
 
 ##  Application Preview
 
-![Login](images/login.png)  
-![Transactions](images/transactions.png)
+![Architecture](https://github.com/SUHEL782/Springboot-BankApp-DevOps/blob/main/images/App_Architech.png)
 
 ---
 
