@@ -32,7 +32,7 @@ This project demonstrates a **complete DevOps pipeline** for deploying a multi-t
 ```bash
 sudo su
 
-⚠️ This project is deployed in us-west-1 (North California) region.
+ This project is deployed in us-west-1 (North California) region.
 
 🔹 Infrastructure Setup
 
@@ -75,7 +75,7 @@ eksctl create nodegroup --cluster=bankapp \
   --node-volume-size=29 \
   --ssh-access \
   --ssh-public-key=eks-nodegroup-key
-🔧 Tools Installation
+ Tools Installation
 Jenkins
 sudo apt update -y
 sudo apt install openjdk-17-jre -y
@@ -101,7 +101,7 @@ kubectl get pods -n argocd
 Expose ArgoCD:
 
 kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "NodePort"}}'
-🔁 CI/CD Pipeline
+ CI/CD Pipeline
 Jenkins Pipeline Includes:
 
 Code checkout
@@ -118,7 +118,7 @@ Trivy scan
 
 Deploy via ArgoCD
 
-📊 Monitoring Setup
+ Monitoring Setup
 Install Prometheus & Grafana
 kubectl create namespace prometheus
 helm install stable prometheus-community/kube-prometheus-stack -n prometheus
@@ -128,11 +128,11 @@ kubectl edit svc stable-kube-prometheus-sta-prometheus -n prometheus
 Get Grafana Password
 kubectl get secret -n prometheus stable-grafana \
 -o jsonpath="{.data.admin-password}" | base64 --decode
-🌐 Access Application
+ Access Application
 http://<worker-node-ip>:30080
-🧹 Clean Up
+Clean Up
 eksctl delete cluster --name=bankapp --region=us-west-1
-🎯 Conclusion
+Conclusion
 
 This project showcases a complete DevOps lifecycle:
 
